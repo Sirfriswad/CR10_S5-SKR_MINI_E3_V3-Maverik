@@ -653,13 +653,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_Kp_LIST {  22.20,  22.20 }
-    #define DEFAULT_Ki_LIST {   1.08,   1.08 }
-    #define DEFAULT_Kd_LIST { 114.00, 114.00 }
+    #define DEFAULT_Kp_LIST {  28.72,  28.72 } // Maverik CR-10 S5 Hotend
+    #define DEFAULT_Ki_LIST {   2.62,   2.62 } // Maverik CR-10 S5 Hotend
+    #define DEFAULT_Kd_LIST {  78.81,  78.81 } // Maverik CR-10 S5 Hotend
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    #define DEFAULT_Kp   36.8 // Maverik CR-10 S5 Hotend
+    #define DEFAULT_Ki    4.2 // Maverik CR-10 S5 Hotend
+    #define DEFAULT_Kd   80.6 // Maverik CR-10 S5 Hotend
   #endif
 #endif
 
