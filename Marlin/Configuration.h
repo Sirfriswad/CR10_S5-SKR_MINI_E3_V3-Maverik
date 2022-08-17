@@ -2528,8 +2528,8 @@
 //
 // Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu.
 //
-//#define INDIVIDUAL_AXIS_HOMING_MENU
-//#define INDIVIDUAL_AXIS_HOMING_SUBMENU
+#define INDIVIDUAL_AXIS_HOMING_MENU // Maverik CR-10 S5
+#define INDIVIDUAL_AXIS_HOMING_SUBMENU // Maverik CR-10 S5
 
 //
 // SPEAKER/BUZZER
