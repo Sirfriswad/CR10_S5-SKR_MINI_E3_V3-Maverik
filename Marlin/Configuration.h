@@ -98,7 +98,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT 0
+#define SERIAL_PORT -1 // Maverik SKR-MINI-E3-V3
 
 /**
  * Serial Port Baud Rate
