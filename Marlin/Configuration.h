@@ -2203,17 +2203,31 @@
 //
 // Preheat Constants - Up to 6 are supported without changes
 //
-#define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 180
-#define PREHEAT_1_TEMP_BED     70
-#define PREHEAT_1_TEMP_CHAMBER 35
-#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_1_LABEL       "Bed Warmup" // Maverik
+#define PREHEAT_1_TEMP_HOTEND 0 // Maverik
+#define PREHEAT_1_TEMP_BED    45 // Maverik
+#define PREHEAT_1_FAN_SPEED   0 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    110
-#define PREHEAT_2_TEMP_CHAMBER 35
-#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_2_LABEL       "PLA" // Maverik
+#define PREHEAT_2_TEMP_HOTEND 200 // Maverik
+#define PREHEAT_2_TEMP_BED     45 // Maverik
+#define PREHEAT_2_TEMP_CHAMBER 35 // Maverik
+#define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
+
+#define PREHEAT_3_LABEL       "ABS" // Maverik
+#define PREHEAT_3_TEMP_HOTEND 240 // Maverik
+#define PREHEAT_3_TEMP_BED     70 // Maverik
+#define PREHEAT_3_FAN_SPEED   255 // Value from 0 to 255
+
+#define PREHEAT_4_LABEL       "PETG" // Maverik
+#define PREHEAT_4_TEMP_HOTEND 230 // Maverik
+#define PREHEAT_4_TEMP_BED     75 // Maverik
+#define PREHEAT_4_FAN_SPEED   255 // Value from 0 to 255
+
+#define PREHEAT_5_LABEL       "TPU" // Maverik
+#define PREHEAT_5_TEMP_HOTEND 230 // Maverik
+#define PREHEAT_5_TEMP_BED     60 // Maverik
+#define PREHEAT_5_FAN_SPEED   255 // Value from 0 to 255
 
 // @section motion
 
