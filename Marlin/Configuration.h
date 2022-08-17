@@ -1537,7 +1537,7 @@
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-//#define MULTIPLE_PROBING 2
+#define MULTIPLE_PROBING   2          // Maverik BLtouch
 //#define EXTRA_PROBING    1
 
 /**
