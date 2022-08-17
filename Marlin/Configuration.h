@@ -2167,11 +2167,11 @@
  */
 #define EEPROM_SETTINGS     // Persistent storage with M500 and M501, Maverik SKR MINI E3 V4
 //#define DISABLE_M503        // Saves ~2700 bytes of flash. Disable for release!
-#define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM.
+//#define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM. Maverik
 #define EEPROM_BOOT_SILENT    // Keep M503 quiet and only give errors during first load
 #if ENABLED(EEPROM_SETTINGS)
-  //#define EEPROM_AUTO_INIT  // Init EEPROM automatically on any errors.
-  //#define EEPROM_INIT_NOW   // Init EEPROM on first boot after a new build.
+  #define EEPROM_AUTO_INIT  // Init EEPROM automatically on any errors. Maverik
+  #define EEPROM_INIT_NOW   // Init EEPROM on first boot after a new build. Maverik
 #endif
 
 // @section host
