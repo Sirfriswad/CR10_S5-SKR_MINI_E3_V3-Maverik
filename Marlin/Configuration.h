@@ -2205,12 +2205,12 @@
 //
 #define PREHEAT_1_LABEL       "Bed Warmup" // Maverik
 #define PREHEAT_1_TEMP_HOTEND 0 // Maverik
-#define PREHEAT_1_TEMP_BED    45 // Maverik
+#define PREHEAT_1_TEMP_BED   60 // Maverik
 #define PREHEAT_1_FAN_SPEED   0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PLA" // Maverik
 #define PREHEAT_2_TEMP_HOTEND 200 // Maverik
-#define PREHEAT_2_TEMP_BED     45 // Maverik
+#define PREHEAT_2_TEMP_BED     60 // Maverik
 #define PREHEAT_2_TEMP_CHAMBER 35 // Maverik
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
